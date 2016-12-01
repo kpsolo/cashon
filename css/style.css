@@ -3260,7 +3260,7 @@ a {
    ========================================================================== */
 .logo {
   display: inline-block;
-  background-image: url(/img/logo.svg);
+  background-image: url("../img/logo.svg");
   background-repeat: no-repeat;
   background-position: center;
   height: 53px;
@@ -3662,7 +3662,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url(/img/slider-1.jpg);
+    background-image: url("../img/slider-1.jpg");
     background-position: center 60%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3697,7 +3697,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     right: 0;
     bottom: 0;
     left: 0;
-    background: url(/img/slider-1.jpg) center top no-repeat;
+    background: url("../img/slider-1.jpg") center top no-repeat;
     background-size: cover;
     z-index: 0; }
     @media (max-width: 767px) {
@@ -3799,16 +3799,16 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
           .hexagon .hex-l2 .hex-text .h3 {
             font-size: 1.25rem; } }
     .hexagon .hex-l2 .bg-img {
-      background-image: url(/img/slider-1.jpg); }
+      background-image: url("../img/slider-1.jpg"); }
 
 .features {
   background-color: #f0f3f8; }
   .features .prem {
-    background-image: url(/img/feature-1.svg); }
+    background-image: url("../img/feature-1.svg"); }
   .features .prof {
-    background-image: url(/img/feature-2.svg); }
+    background-image: url("../img/feature-2.svg"); }
   .features .inn {
-    background-image: url(/img/feature-3.svg); }
+    background-image: url("../img/feature-3.svg"); }
   .features .card {
     z-index: 1;
     position: relative;
@@ -3857,7 +3857,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 
 .maingoal {
   background-color: #f0f3f8;
-  background-image: url(/img/maingoal.jpg);
+  background-image: url("../img/maingoal.jpg");
   background-repeat: no-repeat;
   background-position: 1vw top; }
   @media (max-width: 1440px) {
@@ -3921,7 +3921,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
       height: 100%; } }
   .whomakes .photo {
     display: table-cell;
-    background-image: url(/img/whomakes.jpg);
+    background-image: url("../img/whomakes.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
@@ -3976,7 +3976,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 
 .signup {
   background-attachment: fixed;
-  background-image: url(/img/bodybg.jpg);
+  background-image: url("../img/bodybg.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4103,13 +4103,13 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
       top: 0;
       bottom: 0;
       margin: auto;
-      background-image: url(/img/event-last.svg);
+      background-image: url("../img/event-last.svg");
       background-size: 34px 42px;
       background-position: right center;
       background-origin: border-box;
       background-repeat: no-repeat; }
   .events .schedule-plan .e-next:after {
-    background-image: url(/img/event-next.svg); }
+    background-image: url("../img/event-next.svg"); }
   .events .event-img {
     margin-bottom: 20px; }
   .events .event-h1 {
@@ -4175,17 +4175,17 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
       -webkit-animation: run 20s linear infinite;
               animation: run 20s linear infinite; }
     .partners-content .partner-1 {
-      background-image: url(/img/partner-unique-1.png); }
+      background-image: url("../img/partner-unique-1.png"); }
     .partners-content .partner-2 {
-      background-image: url(/img/partner-unique-2.png); }
+      background-image: url("../img/partner-unique-2.png"); }
     .partners-content .partner-3 {
-      background-image: url(/img/partner-mountain.png); }
+      background-image: url("../img/partner-mountain.png"); }
     .partners-content .partner-4 {
-      background-image: url(/img/partner-unique-3.png); }
+      background-image: url("../img/partner-unique-3.png"); }
     .partners-content .partner-5 {
-      background-image: url(/img/partner-strong.png); }
+      background-image: url("../img/partner-strong.png"); }
     .partners-content .partner-6 {
-      background-image: url(/img/partner-special.png); }
+      background-image: url("../img/partner-special.png"); }
 
 @-webkit-keyframes run {
   0% {
@@ -4219,7 +4219,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 
 .whoweare {
   background-color: white;
-  background-image: url(/img/bg-whoweare.jpg);
+  background-image: url("../img/bg-whoweare.jpg");
   background-position: center bottom;
   background-repeat: no-repeat; }
   @media (max-width: 1200px) {
@@ -4262,7 +4262,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(/img/bg-teamof.jpg); }
+  background-image: url("../img/bg-teamof.jpg"); }
   .teamof:before {
     content: '';
     position: absolute;
@@ -4457,11 +4457,11 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
         .meet-team-content .hexgrid .desc a:hover, .meet-team-content .hexgrid .desc a:focus {
           color: #0085bd; }
       .meet-team-content .hexgrid .desc .email {
-        background-image: url(/img/close-envelope.svg); }
+        background-image: url("../img/close-envelope.svg"); }
       .meet-team-content .hexgrid .desc .skype {
-        background-image: url(/img/skype.svg); }
+        background-image: url("../img/skype.svg"); }
       .meet-team-content .hexgrid .desc .linkedln {
-        background-image: url(/img/linkedin.svg); }
+        background-image: url("../img/linkedin.svg"); }
     .meet-team-content .hexgrid .grid--item:hover .img:before,
     .meet-team-content .hexgrid .grid--item:hover .img:after,
     .meet-team-content .hexgrid .grid--item:hover .container {
@@ -4541,14 +4541,14 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 .close {
   width: 14px;
   height: 14px;
-  background-image: url(/img/close.svg);
+  background-image: url("../img/close.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: #aaa;
   float: right; }
   .close:hover {
-    background-image: url(/img/close-hover.svg); }
+    background-image: url("../img/close-hover.svg"); }
 
 .close:hover,
 .close:focus {
@@ -4614,7 +4614,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     .formatads {
       background-size: cover; } }
   .formatads .photo {
-    background-image: url(/img/bg-ads.jpg);
+    background-image: url("../img/bg-ads.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -4623,7 +4623,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
         display: none; } }
   .formatads .text {
     vertical-align: middle;
-    background-image: url(/img/bg-ads-text.jpg);
+    background-image: url("../img/bg-ads-text.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -4645,7 +4645,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     .gethelp {
       background-size: cover; } }
   .gethelp .photo {
-    background-image: url(/img/bg-gethelp.jpg);
+    background-image: url("../img/bg-gethelp.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -4654,7 +4654,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
         display: none; } }
   .gethelp .text {
     vertical-align: middle;
-    background-image: url(/img/bg-gethelp-text.jpg);
+    background-image: url("../img/bg-gethelp-text.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -4687,7 +4687,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
       .ourtechnology .container {
         padding: 40px 15px 20px; } }
   .ourtechnology .photo {
-    background-image: url(/img/bg-technology.jpg);
+    background-image: url("../img/bg-technology.jpg");
     background-position: 40% center;
     background-repeat: no-repeat;
     background-size: cover; }
@@ -4832,7 +4832,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
       .foraffiliates .container {
         padding: 40px 15px; } }
   .foraffiliates .photo {
-    background-image: url(/img/bg-affiliates.jpg);
+    background-image: url("../img/bg-affiliates.jpg");
     background-position: center top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -4854,7 +4854,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 
 .affsignup {
   background-attachment: fixed;
-  background-image: url(/img/bg-affiliates-sign.jpg);
+  background-image: url("../img/bg-affiliates-sign.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4930,7 +4930,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     padding: 0 0 40px; }
   .affeatures .aff-item {
     display: inline-block;
-    background-image: url(/img/bg-affiliates-ftr.svg);
+    background-image: url("../img/bg-affiliates-ftr.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -5028,11 +5028,11 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
       .contacts .social a:hover, .contacts .social a:focus {
         background-color: #035c82; }
       .contacts .social a .email {
-        background-image: url(/img/close-envelope.svg); }
+        background-image: url("../img/close-envelope.svg"); }
       .contacts .social a .skype {
-        background-image: url(/img/skype.svg); }
+        background-image: url("../img/skype.svg"); }
       .contacts .social a .linkedln {
-        background-image: url(/img/linkedin.svg); }
+        background-image: url("../img/linkedin.svg"); }
   .contacts form {
     position: relative; }
     .contacts form input {
