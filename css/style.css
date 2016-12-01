@@ -4151,9 +4151,9 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
       text-align: right;
       border-right: 3px solid #f0f3f8;
       padding-left: 0; }
-    .events .schedule-plan .event-list li.e-last:nth-of-type(odd):after, .events .schedule-plan .event-list li.e-next:nth-of-type(odd):after {
+    .events .schedule-plan .event-list li.e-last:nth-of-type(odd) a:after, .events .schedule-plan .event-list li.e-next:nth-of-type(odd) a:after {
       left: -18.5px; }
-    .events .schedule-plan .event-list li.e-last:nth-of-type(even):after, .events .schedule-plan .event-list li.e-next:nth-of-type(even):after {
+    .events .schedule-plan .event-list li.e-last:nth-of-type(even) a:after, .events .schedule-plan .event-list li.e-next:nth-of-type(even) a:after {
       left: auto;
       right: -18.5px; }
   .events .schedule-plan .event-p {
@@ -4165,7 +4165,10 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
       .events .schedule-plan .event-p {
         padding: 20px 30px; } }
     .events .schedule-plan .event-p a {
-      color: #7e7e7e; }
+      color: #999;
+      transition: color .3s ease; }
+      .events .schedule-plan .event-p a.active {
+        color: #003a7b; }
   .events .schedule-plan .text-left {
     text-align: left; }
   .events .schedule-plan .text-right {
@@ -4174,8 +4177,8 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   .events .schedule-plan .e-last,
   .events .schedule-plan .e-next {
     position: relative; }
-    .events .schedule-plan .e-last:after,
-    .events .schedule-plan .e-next:after {
+    .events .schedule-plan .e-last a:after,
+    .events .schedule-plan .e-next a:after {
       content: '';
       width: 34px;
       height: 42px;
@@ -4188,7 +4191,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
       background-position: right center;
       background-origin: border-box;
       background-repeat: no-repeat; }
-  .events .schedule-plan .e-next:after {
+  .events .schedule-plan .e-next a:after {
     background-image: url("../img/event-next.svg"); }
   .events .event-img {
     margin-bottom: 20px; }
