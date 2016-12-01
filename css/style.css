@@ -4799,6 +4799,9 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
         display: none; } }
   .ourtechnology .text {
     padding: 0 40px 0 15px; }
+    @media (max-width: 992px) {
+      .ourtechnology .text {
+        padding: 0 15px; } }
     .ourtechnology .text .main-p {
       padding: 20px 0px; }
     .ourtechnology .text .main-h1, .ourtechnology .text .main-h2, .ourtechnology .text .main-p {
@@ -4815,6 +4818,9 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
       background-size: auto;
       text-align: center;
       padding: 40px 0; } }
+  @media (max-width: 767px) {
+    .ourservices {
+      padding: 0; } }
   .ourservices .container {
     padding: 0 0 40px; }
     @media (max-width: 992px) {
@@ -5103,32 +5109,40 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     padding: 0;
     margin: 2px 0; }
     .contacts .main-p span {
+      width: 16px;
       margin-top: 16px;
       margin-right: 16px;
       vertical-align: top;
       font-size: 20px;
       color: #0086c0; }
     .contacts .main-p p {
+      width: calc(100% - 37px);
       font-size: 14px;
       vertical-align: top;
       display: inline-block;
       color: #1f1e1e; }
+      @media (max-width: 479px) {
+        .contacts .main-p p br {
+          display: none; } }
     .contacts .main-p a {
       color: #0086c0; }
       .contacts .main-p a:hover, .contacts .main-p a:focus {
         color: #035c82; }
   .contacts .social {
     margin-top: 26px;
-    overflow: hidden; }
+    overflow: hidden;
+    text-align: left; }
+    @media (max-width: 479px) {
+      .contacts .social {
+        text-align: center; } }
     .contacts .social a {
       font-size: 14px;
       width: 32px;
       height: 32px;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      float: left;
-      margin: 5px;
+      display: -webkit-inline-flex;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      margin: 5px 0 5px 5px;
       -webkit-justify-content: center;
           -ms-flex-pack: center;
               justify-content: center;
@@ -5157,6 +5171,9 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
         background-image: url("../img/linkedin.svg"); }
   .contacts form {
     position: relative; }
+    @media (max-width: 479px) {
+      .contacts form {
+        margin: 0 -15px; } }
     .contacts form input {
       height: 50px;
       padding: 0px 20px;
@@ -5200,6 +5217,11 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
       .contacts form .send:hover, .contacts form .send:focus {
         background-color: #023063;
         color: #fbfbfb; }
+  .contacts-submit {
+    text-align: right; }
+    @media (max-width: 479px) {
+      .contacts-submit {
+        text-align: center; } }
 
 /* Website :: Basic theme
    ========================================================================== */
