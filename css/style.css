@@ -3548,14 +3548,14 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
       background: none;
       border: 0;
       border-radius: 25px;
-      padding: 12px 14px;
+      padding: 12px 20px;
       font-family: "Montserrat", Helvetica, Arial, sans-serif;
       font-weight: 300;
       font-size: 15px;
       text-decoration: none;
       transition: background .3s ease; }
       .nav__menu li a:hover, .nav__menu li a:focus, .nav__menu li button:hover, .nav__menu li button:focus {
-        background-color: #023063; }
+        background-color: #00336b; }
       @media (max-width: 1200px) {
         .nav__menu li a, .nav__menu li button {
           font-size: 13px; } }
@@ -3576,31 +3576,36 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     .nav__menu li.has-submenu > a {
       margin-bottom: 5px; }
     .nav__menu li.has-submenu:hover > a {
-      background-color: #023063; }
+      background-color: #00336b; }
 
 .has-submenu {
   position: relative; }
 
+.has-submenu > a {
+  background: transparent !important;
+  color: #c2c2c2 !important; }
+
 .submenu {
   display: none;
+  border-radius: 5px;
   position: absolute;
   top: 100%;
-  left: 0;
+  left: -50%;
   width: 160px;
   background-color: #003a7b;
-  padding: 10px 0;
+  padding: 5px 10px;
   margin: 0; }
   @media (max-width: 992px) {
     .submenu {
       width: 100%;
       position: relative;
       top: auto;
+      left: auto;
       display: block;
       background-color: rgba(0, 58, 123, 0.4); } }
   .submenu li {
-    padding: 12px;
     display: block;
-    text-align: left;
+    text-align: center;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -3615,20 +3620,15 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
             align-items: left;
     width: 100%;
     height: 48px;
-    padding: 0 0;
     margin: 0 0; }
     @media (max-width: 992px) {
       .submenu li {
-        text-align: center;
         height: auto; } }
     .submenu li a {
-      border-radius: 0px;
+      border-radius: 25px;
       width: 100%; }
       .submenu li a:hover, .submenu li a:focus {
         background-color: #023063; }
-        @media (max-width: 992px) {
-          .submenu li a:hover, .submenu li a:focus {
-            background-color: transparent; } }
 
 .has-submenu:hover .submenu {
   display: block; }
@@ -4762,9 +4762,11 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 80px 8%; }
+    padding: 80px 8%;
+    height: 620px; }
     @media (max-width: 992px) {
       .formatads .text {
+        height: auto;
         background-color: rgba(255, 255, 255, 0.92);
         padding: 40px 5%;
         width: 100%; } }
@@ -4797,9 +4799,11 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 80px 8%; }
+    padding: 80px 8%;
+    height: 620px; }
     @media (max-width: 992px) {
       .gethelp .text {
+        height: auto;
         background-color: rgba(255, 255, 255, 0.92);
         padding: 40px 5%;
         width: 100%;
