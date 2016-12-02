@@ -5292,5 +5292,43 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
       .contacts-submit {
         text-align: center; } }
 
+.thankyou__container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 520px;
+  min-height: 320px;
+  height: 320px;
+  width: 100%;
+  margin: auto; }
+  @media (max-width: 600px) {
+    .thankyou__container {
+      max-width: 330px; } }
+  @media (max-width: 350px) {
+    .thankyou__container {
+      max-width: 300px; } }
+
+.thankyou__img {
+  height: 60px;
+  width: 80px;
+  margin: 10px auto 20px;
+  background: url("../img/thankyou.svg") center center no-repeat; }
+
+.thankyou__title {
+  color: #00377d;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  margin: 20px 0 10px;
+  text-align: center; }
+
+.thankyou__text {
+  text-align: center; }
+  .thankyou__text p {
+    font-size: 16px;
+    color: #6c6c6c; }
+
 /* Website :: Basic theme
    ========================================================================== */
