@@ -4506,8 +4506,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
               backface-visibility: hidden;
       background: rgba(6, 26, 48, 0);
       transition: background .3s ease; }
-      .meet-team-content .hexgrid .grid--item__hexagon:hover {
-        background: rgba(6, 26, 48, 0.9); }
     .meet-team-content .hexgrid h2 {
       font-size: 24px;
       font-family: "Montserrat", Helvetica, Arial, sans-serif;
@@ -4522,7 +4520,8 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
       text-align: center;
       font-size: 16px;
       font-family: "Open Sans", Helvetica, Arial, sans-serif;
-      color: #848484; }
+      color: #848484;
+      pointer-events: none; }
       .meet-team-content .hexgrid .desc a {
         width: 42px;
         height: 42px;
@@ -4557,8 +4556,19 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
         background-image: url("../img/skype.svg"); }
       .meet-team-content .hexgrid .desc .linkedln {
         background-image: url("../img/linkedin.svg"); }
-    .meet-team-content .hexgrid .grid--item:hover .grid--item__container {
+    .meet-team-content .hexgrid .grid--item:hover .grid--item__container, .meet-team-content .hexgrid .grid--item.hover .grid--item__container, .meet-team-content .hexgrid .grid--item.hover:hover .grid--item__container {
       opacity: 1; }
+    .meet-team-content .hexgrid .grid--item:hover .grid--item__hexagon, .meet-team-content .hexgrid .grid--item.hover .grid--item__hexagon, .meet-team-content .hexgrid .grid--item.hover:hover .grid--item__hexagon {
+      background: rgba(6, 26, 48, 0.9); }
+      .meet-team-content .hexgrid .grid--item:hover .grid--item__hexagon .desc, .meet-team-content .hexgrid .grid--item.hover .grid--item__hexagon .desc, .meet-team-content .hexgrid .grid--item.hover:hover .grid--item__hexagon .desc {
+        pointer-events: auto; }
+    @media (max-width: 992px) {
+      .meet-team-content .hexgrid .grid--item:hover .grid--item__container {
+        opacity: 0; }
+      .meet-team-content .hexgrid .grid--item:hover .grid--item__hexagon {
+        background: rgba(6, 26, 48, 0); }
+        .meet-team-content .hexgrid .grid--item:hover .grid--item__hexagon .desc {
+          pointer-events: none; } }
 
 .modal {
   display: none;
