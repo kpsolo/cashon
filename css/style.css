@@ -3520,7 +3520,8 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 .nav__menu {
   text-align: right;
   padding-top: 5px;
-  white-space: nowrap; }
+  white-space: nowrap;
+  border-radius: 5px; }
   @media (max-width: 992px) {
     .nav__menu {
       text-align: center;
@@ -3598,23 +3599,27 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   position: absolute;
   top: -9px;
   left: 49%; }
+  @media (max-width: 992px) {
+    .submenu:before {
+      border-bottom: 5px solid rgba(0, 58, 123, 0.4); } }
 
 .submenu {
   display: none;
   border-radius: 5px;
   position: absolute;
   top: 100%;
-  left: -77%;
-  width: 160px;
+  left: 50%;
+  margin-left: -90px;
+  width: 170px;
   background-color: #003a7b;
-  padding: 5px 10px;
-  margin: 0; }
+  padding: 5px 10px; }
   @media (max-width: 992px) {
     .submenu {
       width: 100%;
       position: relative;
       top: auto;
       left: auto;
+      margin: 0;
       display: block;
       background-color: rgba(0, 58, 123, 0.4); } }
   .submenu li {
